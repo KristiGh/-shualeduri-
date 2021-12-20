@@ -10,6 +10,14 @@ ul {
 a {
     text-decoration: none;
 }
+.text {
+    font-family: 'Poppins';
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: start;
+}
 .container {
     max-width: 1200px;
     width: 100%;
@@ -21,18 +29,220 @@ a {
     align-items: center;
     flex-wrap: wrap;
 }
-
-.list {
-    
-    
+.header {
+    padding: 30px;
 }
-
+.buttons .item {
+    margin-left: 30px;
+}
+.button-upload {
+    border-radius: 12px;
+    border: none;
+    padding: 18px 38px;
+    background-color: #FF2288;
+    color: #FFFFFF;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+}
+.go-pro-a {
+    color: #FF2288;
+}
 .list h4 {
     margin: 36px;  
 }
 .list li {
     margin: 10px;
 }
+.list a {
+    color: #222222;
+    font-size: 16px;
+}
 .end {
     margin-top: 150px;
+    padding: 30px;
 }
+.apps {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.side-bar {
+    background:#222222;
+    height: 100%;
+    padding: 30px;
+}
+.box {
+    margin-top: 10px;
+    margin-bottom: 106px;
+}
+.navbar a {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.navbar-li {
+    border-radius: 12px;
+    margin-bottom: 34px;
+    padding: 0 38px 18px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navbar-li:hover {
+    background-color: #FF2288;
+    border-radius: 12px;
+}
+.photo-1 {
+    margin-bottom: 28px;
+}
+.photo-1 a {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.photo-1:hover {
+    border-radius: 12px;
+    background-color: #FF2288;
+}
+.following h2 {
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+.following a {
+    color: #FFFFFF;
+    margin-bottom: 106px;
+}
+.filter {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.filter a {
+    margin-right: 50px;
+    color: #222222;
+    font-size: 16px;
+}
+.filter a:hover {
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    padding: 18px;
+}
+.filter-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    margin-bottom: 70px;
+}
+.filter-item-img {
+    width: 100%;
+}
+.filter-icon {
+    border-radius: 12px;
+    border: 1px solid #D8D8D8;
+    font-size: 16px;
+    /* border-radius: 12px;
+    border: none;
+    padding: 16px 27px;
+    background-color: #D8D8D8;
+    color: #222222;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px; */
+}
+.more {
+    margin: auto;
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    max-width: 289px;
+    padding: 18px 106px;
+    font-size: 14px;
+}
+.more a {
+    color: #222222;
+}
+.all-designers {
+    background-color: #FAFAFA;
+    padding: 60px;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.top-designers {
+    font-size: 32px;
+    color: #222222;
+    margin-bottom: 54px;
+    margin-top: 67px;
+}
+.top-designers a {
+    color: #222222;
+    font-size: 14px;
+}
+.designers {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.designers img{
+    max-width: 131px;
+    width: 100%;
+}
+.photo-box {
+    width: auto;
+}
+.name-box {
+    margin-top: 10px;
+    color: #222222;
+    font-size: 16px;
+}
+.city-box {
+    color: #222222;
+    font-size: 12px;
+}
+.follow-box a {
+    border-radius: 12px;
+    border: none;
+    padding: 12px 36px;
+    background-color: #D8D8D8;
+    color: #222222;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+}
+/* .follow-box1 {
+   border-radius: 12px;
+    border: none;
+    padding: 12px 36px;
+    background-color: #D8D8D8;
+    color: #222222;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px; 
+} */
+.info-list {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.info-list a {
+    margin-right: 130px;
+    color: #111111;
+    font-size: 18px;
+}
+table {
+    /* border-collapse: collapse; */
+    width: 100%;
+}  
+td, th {
+    text-align: left;
+    padding: 20px;
+}
+td:hover {
+    background-color: #F2F2F2;
+    border-radius: 12px;
+}
+.pink {
+    color: #FF2288;
+}
+.footer {
+    padding: 25px;
+    margin-top: 100px;
+    margin-left: 0px;
+}  
+  
